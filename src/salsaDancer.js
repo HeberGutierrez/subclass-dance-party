@@ -21,7 +21,7 @@ SalsaDancer.prototype.step = function() {
     opacity: 1,
     left: "-=50",
   }, 500, function() {
-    // right: "-=20 0"
+    right: "-=20 0"
   })
 
 

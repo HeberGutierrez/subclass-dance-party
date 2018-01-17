@@ -41,14 +41,25 @@ body, a:link, a:visited, a:active{
   width: 200px;
 }
 
-.dancer.otherDance{
-  background-image: url("https://media.giphy.com/media/l4Eplfm8JTnyKMQs8/giphy.gif");
+.dancer.blinkyDancer {
+  background-image: url("https://media.giphy.com/media/ZJZvdAp9XA2lO/giphy.gif");
   background-repeat: no-repeat;
   background-size: 100%;
   position:absolute;
   border: none;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
+}
+
+
+.dancer.otherDance{
+  background-image: url("https://media.giphy.com/media/3o85xlTphZUKynB89G/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position:absolute;
+  border: none;
+  height: 100px;
+  width: 100px;
 }
 
 body {
