@@ -6,11 +6,26 @@
     <script src="lib/jquery.js"></script>
     <script src="src/dancer.js"></script>
     <script src="src/blinkyDancer.js"></script>
+    <script src="src/salsaDancer.js"></script>
+    <script src="src/breakDancer.js"></script>
+    <script src="src/otherDancer.js"></script>
   </head>
   <body>
+    <audio controls autoplay>
+      <source src="src/mygeneration.mp3" type="audio/mpeg">
+    </audio>
+
     <div class="topbar">
       <span class="title">object dance party</span>
-      <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeBlinkyDancer">add a blinky dancer</a>    </div>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="BlinkyDancer">add a blinkyDancer dancer</a>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="SalsaDancer">add a Dancer dancer</a>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="BreakDancer">add a Break dancer</a>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="OtherDancer">add a Other dancer</a>
+      <a href="#" class="button">Line up on the left</a>
+
+
+
+      </div>
     <script src="src/init.js"></script>
   </body>
 </html>

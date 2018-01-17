@@ -20,8 +20,37 @@ body, a:link, a:visited, a:active{
 .title{
   background-color: #777;
 }
-.dancer{
-  border:10px solid red;
-  border-radius:10px;
+
+.dancer.breakDance {
+  background-image: url("https://media.giphy.com/media/sK331dIK7Gk3m/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
   position:absolute;
+  border: none;
+  height: 200px;
+  width: 200px;
+}
+
+.dancer {
+  background-image: url("https://media.giphy.com/media/WVixuNpUU0muA/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position:absolute;
+  border: none;
+  height: 200px;
+  width: 200px;
+}
+
+.dancer.otherDance{
+  background-image: url("https://media.giphy.com/media/l4Eplfm8JTnyKMQs8/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position:absolute;
+  border: none;
+  height: 200px;
+  width: 200px;
+}
+
+body {
+    background-image: url("https://media.giphy.com/media/xT9IgN8YKRhByRBzMI/giphy.gif");
 }
